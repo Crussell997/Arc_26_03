@@ -36,14 +36,22 @@ The tool is using fixed CO2 emission factors that are written directly into the 
 
 
 
-### 4: FILL OUT
-**Area:** Architecture  
-**Issue type:** Tool issue  
+### 4: 
+**Area:** Architecture / Build-Cost
+**Issue type:**   Tool issue
+**Affected systems:**  Build
+**IFC classification:**  IfcCostItem
+**Source:** 
+2542: Rapid IFC-Based Architectural Cost Estimator
+The tool is used to estimate costs by a given price in m², this issue requires constant update of the user, it could be leveraged more if it were to access real time data from internet, allowing interoperability between various locations by a web scrapping tool.
+
+
+### 5: FILL OUT
+**Area:** 
+**Issue type:**   
 **Affected systems:**  
 **IFC classification:**  
 **Source:** 
-
-
 
 
 
@@ -63,4 +71,7 @@ A drawing or model showing the existing building should be included, and more in
 The CO2 emission factors should be separated from the main script and connected directly to an LCA database, so that the emission factors can be updated automatically. Alternativaly, they could be stored in a separate database, making a manual update less complicated.
 
 
-### 4: FILL OUT
+### 4:
+Inputting a manual value every time the tool is needed, can lead to misinformation of costs and also limiting the Ifc file possibilities. By a web scrapping tool, it can be used to actually foresee different costs and also allow relocation of project into anywhere the local web data is available. Our suggestion would be using the space separation system of using capitals in between words to actually separate them and doing web search of these key words on the internet by a web scrapping tool and a zip code of the construction site, allowing to use real life suppliers and cost estimation.
+
+### 5:
