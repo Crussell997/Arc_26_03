@@ -37,13 +37,13 @@ The tool is using fixed CO2 emission factors that are written directly into the 
 
 
 ### 4: 
-**Area:** Architecture / Build-Cost
-**Issue type:**   Tool issue
-**Affected systems:**  Build
-**IFC classification:**  IfcCostItem
+**Area:** Architecture / Build-Cost.
+**Issue type:**   Tool issue.
+**Affected systems:**  Build.
+**IFC classification:**  IfcCostItem.
 **Source:** 
-2542: Rapid IFC-Based Architectural Cost Estimator
-The tool is used to estimate costs by a given price in m², this issue requires constant update of the user, it could be leveraged more if it were to access real time data from internet, allowing interoperability between various locations by a web scrapping tool.
+[2542: Rapid IFC-Based Architectural Cost Estimator].
+The tool is used to estimate costs by a given price in m², this issue requires constant update of the user, it could be leveraged more if it were to access real time data from internet, allowing interoperability between various locations by a web scrapping tool..
 
 
 ### 5: FILL OUT
