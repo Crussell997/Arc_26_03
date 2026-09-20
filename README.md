@@ -65,7 +65,10 @@ A way of doing this could be by updating the IFC model with the new floorplan, w
 
 
 ### 2:
-A drawing or model showing the existing building should be included, and more information should be given on what changes are proposed to make it easier to understand the overall scale of the renovation.
+A drawing or model showing the existing building should be included, and more information should be given on what changes are proposed to make it easier to understand the overall scale of the renovation. Items to help this would include:
+- all existing elements that will be retained, demolished, or removed
+- Existing and proposed room function
+- areas that are included and/or exclude from the renovation scope
 
 ### 3:
 The CO2 emission factors should be separated from the main script and connected directly to an LCA database, so that the emission factors can be updated automatically. Alternativaly, they could be stored in a separate database, making a manual update less complicated.
