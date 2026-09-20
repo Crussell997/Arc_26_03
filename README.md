@@ -37,21 +37,14 @@ The tool is using fixed CO2 emission factors that are written directly into the 
 
 
 ### 4: 
-**Area:** Architecture / Build-Cost.
-**Issue type:**   Tool issue.
-**Affected systems:**  Build.
-**IFC classification:**  IfcCostItem.
+**Area:** Architecture / Build-Cost.  
+**Issue type:** Tool issue.  
+**Affected systems:** Build.  
+**IFC classification:** IfcCostItem (6.5.3.2).  
 **Source:** 
-[2542: Rapid IFC-Based Architectural Cost Estimator].
-The tool is used to estimate costs by a given price in m², this issue requires constant update of the user, it could be leveraged more if it were to access real time data from internet, allowing interoperability between various locations by a web scrapping tool..
+[2542: Rapid IFC-Based Architectural Cost Estimator](https://github.com/Grumstrup1/41934_G42/tree/main/A3).
 
-
-### 5: FILL OUT
-**Area:** 
-**Issue type:**   
-**Affected systems:**  
-**IFC classification:**  
-**Source:** 
+The tool is used to estimate costs by a given price in m². This issue requires constant update of the user, it could be leveraged more if it were to access real time data from internet, allowing interoperability between various locations by a web scrapping tool..
 
 
 
@@ -77,4 +70,3 @@ The CO2 emission factors should be separated from the main script and connected 
 ### 4:
 Inputting a manual value every time the tool is needed, can lead to misinformation of costs and also limiting the Ifc file possibilities. By a web scrapping tool, it can be used to actually foresee different costs and also allow relocation of project into anywhere the local web data is available. Our suggestion would be using the space separation system of using capitals in between words to actually separate them and doing web search of these key words on the internet by a web scrapping tool and a zip code of the construction site, allowing to use real life suppliers and cost estimation.
 
-### 5:
