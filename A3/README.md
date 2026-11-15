@@ -39,14 +39,11 @@ You also need an architectural Revit model that can be exported to IFC.
 1. Open the architectural model in **Revit**.
 2. Go to **File → Export → IFC**.
 
-![Revit save as IFC](IMG/Revit save as IFC full screen.jpeg)
+![Revit save as IFC](IMG\Revit_save_as_IFC_full_screen.jpeg)
 
 3. Choose where the IFC file should be saved.
-4. Give the file a name, for example:
+4. Give the file a name, for example: **Architecture_model.ifc**
 
-```text
-Architecture_model.ifc
-```
 
 5. Select the IFC export setup you want to use.
 6. Click **Export**.
@@ -56,23 +53,24 @@ The Revit model is now saved as an IFC file that can be opened in other IFC-comp
 
 ## 2. Install Bonsai in Blender
 
-Before opening the IFC model in Blender, make sure Bonsai is installed.
+Before you can open the IFC model in Blender, you have to make sure Bonsai is installed.
 
 1. Open Blender.
 2. Go to **Edit → Preferences**.
 3. Open **Get Extensions**.
 4. Search for **Bonsai**.
 5. Install the Bonsai extension.
-6. Close the Preferences window.
+![Install bonsai](IMG\Blender_get_Bonsai.jpeg)
 
 When Bonsai is installed, Blender will contain IFC-specific tools such as **Open IFC Project**.
 
 
 
-## 3. Open the Revit IFC in Bonsai
+## 3. Open the IFC downloaded from Revit in Bonsai
 
 1. Open Blender.
 2. Go to **File → Open IFC Project**.
+![Blender open IFC](IMG\Blender_open_IFC.jpeg)
 3. Select the IFC file exported from Revit.
 
 The Revit model should now be visible in the Blender viewport.
@@ -104,7 +102,8 @@ Expand the hierarchy and locate one of the building storeys and select an elemen
 
 Now that the overall IFC structure is clear, you can inspect the information connected to individual objects.
 
-1. Select an element in the model, for example a wall, door or window (IfcWall, Ifcdoor or IfcWindow).
+1. Select an element in the model, for example a door as shown below.
+![IFC levels w door](IMG\Blender_IFC_levels_with_door.jpeg)
 2. Open **Object Information** in the properties panel.
 3. Check which IFC class the selected object belongs to.
 
@@ -158,7 +157,7 @@ After the classification system has been loaded:
 3. Add a classification reference.
 4. Choose the appropriate classification code for the object.
 
-
+![Blender classification](IMG\Blender_classification.jpeg)
 
 
 ## 6. Save the edited IFC project
@@ -169,11 +168,7 @@ Go to:
 
 **File → Save IFC Project**
 
-Give the file an appropriate name, for example:
-
-```text
-Architecture_model_classified.ifc
-```
+Give the file an appropriate name, for example: **Architecture_model_classified.ifc**
 
 ## 7. Link the IFC back into Revit
 
@@ -182,6 +177,7 @@ The saved IFC project can now be linked back into Revit.
 1. Open **Revit**.
 2. Open the original Revit project.
 3. Go to **Insert → Link IFC**.
+![Link IFC](IMG\Revit_link_IFC.jpeg)
 4. Select the IFC file.
 5. Select the appropriate positioning method.
 6. Open the IFC link.
