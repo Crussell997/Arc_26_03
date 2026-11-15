@@ -31,7 +31,6 @@ Before starting the tutorial, make sure you have:
 You also need an architectural Revit model that can be exported to IFC.
 
 
-
 ---
 # Instructions to run the tool
 
@@ -39,6 +38,9 @@ You also need an architectural Revit model that can be exported to IFC.
 
 1. Open the architectural model in **Revit**.
 2. Go to **File → Export → IFC**.
+
+![Revit save as IFC](IMG/Revit save as IFC full screen.jpeg)
+
 3. Choose where the IFC file should be saved.
 4. Give the file a name, for example:
 
